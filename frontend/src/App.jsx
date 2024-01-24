@@ -1,7 +1,5 @@
-import React from "react";
+import Introduction from "./react/ui/Introduction";
 
-const App = () => {
-  return <h1>App page content</h1>;
-};
+const App = () => <Introduction />;
 
 export default App;

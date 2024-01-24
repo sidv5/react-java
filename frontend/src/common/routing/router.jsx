@@ -1,9 +1,10 @@
-import Root from "./routes/root";
-import ErrorPage from "./routes/error-page";
-import State from "./state/State";
-import UI from "./ui/UI";
-import App from "./App";
+import Root from "./root";
+import ErrorPage from "./error-page";
+import State from "../../react/state/State";
+import UI from "../../react/ui/UI";
+import App from "../../App";
 import {createBrowserRouter} from 'react-router-dom'
+import AdditionalNotes from "../../react/additional/AdditionalNotes";
 
 const PathRouter =  createBrowserRouter([
         {
@@ -21,6 +22,10 @@ const PathRouter =  createBrowserRouter([
             {
             path: "state",
             element: <State />
+            },
+            {
+            path: "additionalNotes",
+            element: <AdditionalNotes />
             }
         ],
     },

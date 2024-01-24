@@ -8,8 +8,12 @@ export const menuItemsData = [
         url: "UI"
       },
       {
-        title: "State",
+        title: "Events & State",
         url: "state"
+      },
+      {
+        title: "Additional Notes",
+        url: "additionalNotes"
       }
     ]
   }

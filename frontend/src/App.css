@@ -118,7 +118,7 @@ header {
   display: none;
 }
 
-/* menu on mobile */
+/* menu on mobile
 @media screen and (max-width: 960px) {
   .nav-area {
     justify-content: space-between;
@@ -213,7 +213,7 @@ header {
   .mobile-nav .dropdown.show {
     display: block;
   }
-}
+}  */
 
 /* page content */
 .content {

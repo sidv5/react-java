@@ -1,4 +1,4 @@
-import { menuItemsData } from "../routes/menuItemsData";
+import { menuItemsData } from "../routing/menuItemsData";
 import MenuItems from "./MenuItems";
 
 const Navbar = () => {
