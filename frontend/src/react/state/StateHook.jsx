@@ -44,6 +44,7 @@ const ListOfNotes = () => {
   };
   return (
     <>
+      <h4>• Updating an Array with State Hooks</h4>
       <p>List of Notes</p>
       <input
         type="text"

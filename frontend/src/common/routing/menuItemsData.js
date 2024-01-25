@@ -12,6 +12,18 @@ export const menuItemsData = [
         url: "state"
       },
       {
+        title: "Forms",
+        url: "forms"
+      },
+      {
+        title: "Ref",
+        url: "ref"
+      },
+      {
+        title: "Effect",
+        url: "effect"
+      },
+      {
         title: "Additional Notes",
         url: "additionalNotes"
       }
